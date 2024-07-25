@@ -12,7 +12,7 @@
 .container{
     width: 100%;
     background-color: aliceblue;
-    height: 100vh;
+
 }
 
 .d-flex{
@@ -21,10 +21,17 @@
 
 .admin-side{
     background-color: var(--white-);
-    width: 12%;
+    width: 300px;
     height: 100vh;
   
 }
+
+.admin-hide{
+    width: -300px;
+    
+}
+
+
 
 .admin-title{
     width: 100%;
@@ -33,8 +40,18 @@
     
 }
 
+.admin-title-logo{
+    width: 40%;
+    text-align: right;
+    padding-right: 20px;
+}
+.admin-title-h1{
+    width: 60%;
+}
+
+
 .admin-title-logo i{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .border{
@@ -43,29 +60,31 @@
 
 .admin-contents{
     margin-top: 30px;
+   
 }
 .admin-link{
     justify-content: space-around;
     /* padding: 0px 40px; */
+   
 
 }
 
 .cont{
-    padding: 10px 0px;
+    padding: 6px 0px;
     margin-bottom: 5px;
 }
 
 .admin-link i{
     font-size: 22px;
-    width: 30%;
     text-align: right;
 }
 
 .admin-link a{
-    font-size: 21px;
+    font-size: 19px;
     text-decoration: none;
     color: grey;
 }
+
 
 
 
@@ -77,3 +96,38 @@
 .cont{
     border: 1px solid gainsboro;
 }
+
+.admin-link-i{
+    width: 30%;
+    padding: 5px 5px;
+}
+
+.admin-link-a{
+    width: 60%;
+    padding: 5px 5px;
+}
+/* 
+.container div {
+    border:1px solid red
+} */
+ main{
+    width: calc(100% - 300px);
+ }
+
+nav{
+    background-color: white;
+    padding: 0px 30px;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+
+
+nav i{
+    width: 40%;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+

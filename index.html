@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container d-flex">
         <div class="admin-side border">
             <div class="admin-title d-flex border">
                 <div class="admin-title-logo">
@@ -145,20 +145,46 @@
                         </div>
                     </div>
                 </div>
-                <div class="cont">
-                    <div class="admin-link d-flex center">
-                        <div class="admin-link-i">
-                            <i class="ri-home-4-line"></i>
+                
+            </div>
+        </div>
+        <main>
+            <nav class="d-flex border center">
+                <div class="nav1 d-flex ">
+                    <div class="nav-menu">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                    <div class="nav-search">
+                        <i class="ri-search-line"></i>
+                    </div>
+                </div>
+                <div class="nav2 d-flex">
+                    <div class="nav-noti">
+                        <i class="ri-notification-2-line"></i>
+                    </div>
+                    <div class="nav-message">
+                        <i class="ri-message-2-line"></i>
+                    </div>
+                    <div class="nav-id">
+                        <div class="nav-img">
+
                         </div>
-                        <div class="admin-link-a">
-                            <a href="">Dashborad</a>
+                        <div class="nav-name">
+
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </nav>
+        </main>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $('.nav-menu').click(function(){
+            // $('.admin-side').toggle();
+            $('.admin-side').toggleClass('.admin-hide')
+        })
+    </script>
 </body>
 </html>
