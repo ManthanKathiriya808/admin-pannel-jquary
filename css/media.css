@@ -1,0 +1,22 @@
+@media(max-width:1320px){
+    .views{
+        width: 50%;
+    }
+}
+    
+@media(max-width:1120px){
+    .views{
+        width: 100% !important;
+    }
+
+    .views1,.views2,.views3,.views4{
+        width: 100% !important;
+    }
+
+
+}
+@media(max-width:1320px){
+    .views{
+        width: 50%;
+    }
+}

@@ -5,6 +5,10 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+body{
+    max-width: 100%;
+}
+
 :root{
     --border-:gainsboro;
     --white-:white;
@@ -22,10 +26,14 @@
 
 .admin-side{
     background-color: var(--white-);
-    width: 250px;
+    width: 250px ;
     height: 100vh;
+    
+    /* height: 200vh; */
     overflow: hidden;
     transition: width 1s;
+    position: sticky;
+    top: 0px;
   
 }
 
@@ -35,7 +43,6 @@
 
 .a-hide{
     display: none;
-
 }
 
 .w-100{
@@ -49,6 +56,7 @@
     width: 100%;
     /* justify-content: space-around; */
     padding: 15px 0px;
+
     
 }
 
@@ -79,6 +87,7 @@
 
 .admin-contents{
     margin-top: 10px;
+
    
 }
 .admin-link{
@@ -142,6 +151,7 @@ nav{
     width: 100%;
     height: 68px;
     justify-content: space-between;
+    position: relative;
 }
 
 nav i{
@@ -176,6 +186,135 @@ nav i{
     box-shadow: rgba(149, 157, 165, 0.963) 0px 8px 24px;
 }
 
+.user-container{
+    position: absolute;
+    display: none;
+    top: 69px;
+    right: 120px;
+    border-radius: 15px;
+    background-color: white;
+ 
+    width: 300px;
+    
+ 
+}
+
+.images{
+    width: 60px; 
+    border: 1px solid black;
+    border-radius: 50%;
+    /* padding: 3px; */
+  
+
+}
+
+.user-btn{
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    padding: 10px;
+    border: 1px solid white;
+
+  border-radius: 50%;
+  /* box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px; */
+}
+.user-box{
+    /* box-shadow: rgb(170, 209, 221) 0px 7px 29px 0px; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+
+
+.content-user{
+    width: 50%;
+    padding: 30px;
+  
+}
+.span1{
+    font-size: 20px;
+}
+.user-h3{
+    font-weight: 400;
+}
+
+.user-h1{
+    font-size: 23px;
+}
+
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: 
+#fff;
+    background: 
+#111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: 
+#000
+}
+
+.glow-on-hover:active:after {
+    background: 
+transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: 
+#111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
 .main-box{
     width: 100%;
 }
@@ -183,6 +322,7 @@ nav i{
     width: 100%;
     flex-wrap: wrap;
     padding: 10px 20px;
+    border: 1px solid var(--border-);
 }
 
 .boxes{
@@ -190,11 +330,70 @@ nav i{
     /* border:2px solid red; */
     height: 50vh;
     padding: 20px 10px;
+    border: 1px solid var(--border-);
 
 }
 
 .boxes1{
-    /* padding: 20px; */
+    
     background-color: white;
     height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 1px solid var(--border-);
 }
+
+.div1{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid var(--border-);
+    /* padding: 20px 20px; */
+}
+
+.views{
+    width: 25%;
+    padding: 10px 20px;
+    border: 1px solid var(--border-);
+    
+}
+
+.view{
+    background-color:beige;
+    height: 100%;
+}
+.box div{
+    /* border: 1px solid red; */
+}
+
+.div2{
+    width: 100%;
+    height: 73vh;
+}
+
+.views1{
+    width: 65%;
+    border: 1px solid var(--border-);
+    background-color:beige;
+}
+
+.views2{
+    width: 35%;
+    border: 1px solid var(--border-);  
+}
+
+.div3{
+    width: 100%;
+    height: 50vh;
+}
+
+
+.views3{
+    width: 55%;
+    padding: 20px 15px;
+}
+
+.views4{
+    width: 45%;
+    padding: 20px 15px;
+}
+
