@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 :root{
@@ -21,13 +22,24 @@
 
 .admin-side{
     background-color: var(--white-);
-    width: 300px;
+    width: 250px;
     height: 100vh;
+    overflow: hidden;
+    transition: width 1s;
   
 }
 
 .admin-hide{
-    width: -300px;
+    width: 40px;
+}
+
+.a-hide{
+    display: none;
+
+}
+
+.w-100{
+    width: 100% !important;
     
 }
 
@@ -35,23 +47,30 @@
 
 .admin-title{
     width: 100%;
-    justify-content: space-between;
-    padding: 20px 20px;
+    /* justify-content: space-around; */
+    padding: 15px 0px;
     
 }
 
 .admin-title-logo{
-    width: 40%;
+    width: 30%;
     text-align: right;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .admin-title-h1{
+    font-size: 15PX;
     width: 60%;
+    font-weight: 300;
 }
+.admin-title-h1 h1{
+ 
+    font-weight: 400;
+}
+
 
 
 .admin-title-logo i{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .border{
@@ -59,7 +78,7 @@
 }
 
 .admin-contents{
-    margin-top: 30px;
+    margin-top: 10px;
    
 }
 .admin-link{
@@ -70,17 +89,17 @@
 }
 
 .cont{
-    padding: 6px 0px;
-    margin-bottom: 5px;
+    padding: 2px 0px;
+    margin-bottom: 2px;
 }
 
 .admin-link i{
-    font-size: 22px;
+    font-size: 20px;
     text-align: right;
 }
 
 .admin-link a{
-    font-size: 19px;
+    font-size: 17px;
     text-decoration: none;
     color: grey;
 }
@@ -99,35 +118,83 @@
 
 .admin-link-i{
     width: 30%;
+    transition: all 1s;
     padding: 5px 5px;
 }
 
 .admin-link-a{
     width: 60%;
     padding: 5px 5px;
+ 
 }
 /* 
 .container div {
     border:1px solid red
 } */
  main{
-    width: calc(100% - 300px);
+    /* width: calc(100% - 250px); */
+    width: 100%;
  }
 
 nav{
     background-color: white;
     padding: 0px 30px;
     width: 100%;
-    height: 80px;
+    height: 68px;
     justify-content: space-between;
 }
 
-
-
 nav i{
     width: 40%;
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 20px;
 }
 
+/* .nav-id{
+    width: 20%;
+    border: 1px solid red;
+} */
+/* .nav-id div{
+    border: 1px solid red;
+} */
+.nav-id {
 
+    padding: 10px;
+}
+
+.nav-img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.nav-img img{
+    width: 100%;
+    height:100%;
+       /* border: 1px solid gainsboro; */
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.963) 0px 8px 24px;
+}
+
+.main-box{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.boxes{
+    width: 50%;
+    /* border:2px solid red; */
+    height: 50vh;
+    padding: 20px 10px;
+
+}
+
+.boxes1{
+    /* padding: 20px; */
+    background-color: white;
+    height: 100%;
+}

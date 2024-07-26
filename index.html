@@ -11,6 +11,8 @@
     rel="stylesheet"
 />
 </head>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
     
     <div class="container d-flex">
@@ -150,7 +152,7 @@
         </div>
         <main>
             <nav class="d-flex border center">
-                <div class="nav1 d-flex ">
+                <div class="nav1 d-flex center">
                     <div class="nav-menu">
                         <i class="ri-menu-line"></i>
                     </div>
@@ -158,23 +160,49 @@
                         <i class="ri-search-line"></i>
                     </div>
                 </div>
-                <div class="nav2 d-flex">
+                <div class="nav2 d-flex center">
                     <div class="nav-noti">
                         <i class="ri-notification-2-line"></i>
                     </div>
                     <div class="nav-message">
                         <i class="ri-message-2-line"></i>
                     </div>
-                    <div class="nav-id">
+                    <div class="nav-id d-flex center">
                         <div class="nav-img">
-
+                            <img src="img/John_Doe_Naturalized.webp" alt="">
                         </div>
                         <div class="nav-name">
-
+                            <p>John Doe</p>
                         </div>
                     </div>
                 </div>
             </nav>
+            <section>
+                <div class="main-box">
+                    <div class="box d-flex">
+                        <div class="boxes">
+                            <div class="boxes1">
+                                
+                            </div>   
+                        </div>
+                        <div class="boxes">
+                            <div class="boxes1">
+
+                            </div>   
+                        </div>
+                        <div class="boxes">
+                            <div class="boxes1">
+
+                            </div>   
+                        </div>
+                        <div class="boxes">
+                            <div class="boxes1">
+
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -183,7 +211,12 @@
     <script>
         $('.nav-menu').click(function(){
             // $('.admin-side').toggle();
-            $('.admin-side').toggleClass('.admin-hide')
+            $('.admin-side').toggleClass('admin-hide');
+            $('.admin-link-a').toggleClass('a-hide');
+            $('.admin-link-i').toggleClass('w-100');
+            $('.admin-title-logo').toggleClass('w-100');
+            $('.admin-title-h1').toggleClass('a-hide');
+
         })
     </script>
 </body>
