@@ -20,3 +20,8 @@
         width: 50%;
     }
 }
+@media(max-width:667px){
+    .user-container{
+        right: 10px;
+    }
+}
