@@ -25,3 +25,18 @@
         right: 10px;
     }
 }
+
+@media(max-width:767px){
+    .admin-side{
+        position:absolute;
+    }
+
+    .admin-contents{
+        z-index: 10 !important;
+        background-color: white;
+    }
+}
+
+#chart{
+    padding: 20px;
+}
