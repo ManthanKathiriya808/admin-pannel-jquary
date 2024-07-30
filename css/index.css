@@ -334,14 +334,14 @@ transparent;
     width: 50%;
     /* border:2px solid red; */
     /* height: 50vh; */
+  
     padding: 20px 10px;
     border: 1px solid var(--border-);
 
 }
 
 .boxes1{
-    
-    background-color: white;
+    background-color:white;
     height: 100%;
     width: 100%;
     flex-wrap: wrap;
@@ -364,8 +364,9 @@ transparent;
 }
 
 .view{
-    /* background-color:beige; */
+
     /* height: 100%; */
+    
     /* padding: 40px 20px; */
 }
 .box div{
@@ -378,13 +379,14 @@ transparent;
 }
 
 .views1{
-    width: 65%;
+    width: 60%;
     border: 1px solid var(--border-);
-    background-color:beige;
+    /* background-color:beige; */
+    padding: 10px 5px;
 }
 
 .views2{
-    width: 35%;
+    width: 40%;
     border: 1px solid var(--border-);  
 }
 
@@ -434,3 +436,79 @@ transparent;
     font-weight: 600 !important;
 }
 
+
+#chart1{
+    /* width: 30px; */
+    /* height: 10px !important; */
+}
+
+.visits-graph{
+    /* width: 40%; */
+
+}
+
+.visits-img{
+    /* width: 50%; */
+    
+}
+
+.visits{
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+}
+
+.view-h5{
+    color: grey;
+    font-size: 15px;
+}
+
+.map {
+    /* -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(60%); */
+margin-top: 10px;
+            width: 100%;
+            border-radius: 10px;
+            height: 60vh;
+}
+
+#container,#container1,#container2,#container3 {
+    /* margin: 20px; */
+    width: 100%;
+    height: 2px;
+  }
+
+  .value{
+    justify-content: space-between;
+  }
+
+  .view{
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+
+  .view2{
+    /* height: 100%; */
+  }
+
+  .border-btm{
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .hr{
+    color: gainsboro;
+  }
+
+
+  #container4,#container5,#container6 {
+    /* margin: 20px; */
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+  }
