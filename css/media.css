@@ -26,13 +26,22 @@
     }
 }
 
-@media(max-width:767px){
+@media(max-width:892px){
     .admin-side{
         position:absolute;
+        z-index: 10 !important;
+        margin-top: 70px;
+        height: 100vh ;
+        border-radius: 10px;
+    }
+
+    .admin-title{
+        display: none;
     }
 
     .admin-contents{
         z-index: 10 !important;
+        /* margin-top: 60px; */
         background-color: white;
     }
 }

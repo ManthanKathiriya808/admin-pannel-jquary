@@ -27,7 +27,7 @@ body{
 .admin-side{
     background-color: var(--white-);
     width: 250px ;
-    /* height: 100vh; */
+    height: 100vh;
     
     /* height: 200vh; */
 
@@ -364,9 +364,14 @@ transparent;
 }
 
 .view{
+<<<<<<< HEAD
 
     /* height: 100%; */
     
+=======
+    /* background-color:beige; */
+    height: 100%;
+>>>>>>> 6d51432a5e80c2d483343fe860fc2a65a1cf1851
     /* padding: 40px 20px; */
 }
 .box div{
@@ -425,6 +430,11 @@ transparent;
     margin: auto;
     line-height: 30px;
    
+}
+
+#myChart{
+    width: 100% !important;
+    height: 100% !important;
 }
 
 
