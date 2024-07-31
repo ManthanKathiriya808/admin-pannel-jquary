@@ -363,17 +363,6 @@ transparent;
     
 }
 
-.view{
-<<<<<<< HEAD
-
-    /* height: 100%; */
-    
-=======
-    /* background-color:beige; */
-    height: 100%;
->>>>>>> 6d51432a5e80c2d483343fe860fc2a65a1cf1851
-    /* padding: 40px 20px; */
-}
 .box div{
     /* border: 1px solid red; */
 }
@@ -503,8 +492,8 @@ margin-top: 10px;
     padding: 20px 30px;
   }
 
-  .view2{
-    /* height: 100%; */
+  .views2{
+    /* height: 72vh; */
   }
 
   .border-btm{
@@ -520,5 +509,53 @@ margin-top: 10px;
     /* margin: 20px; */
     width: 100px;
     height: 100px;
+    padding: 0;
     /* position: relative; */
   }
+
+
+
+  #container > svg > path:first-child{
+    stroke-dasharray: 100, 100 ! important;
+  }
+
+  #container > svg > path:last-child{
+    stroke-dasharray: 50, 100 ! important;
+  }
+  #container1 > svg > path:first-child{
+    stroke-dasharray: 100, 100 ! important;
+  }
+
+  #container1 > svg > path:last-child{
+    stroke-dasharray: 80, 100 ! important;
+  }
+  #container2 > svg > path:first-child{
+    stroke-dasharray: 100, 100 ! important;
+  }
+
+  #container2 > svg > path:last-child{
+    stroke-dasharray: 40, 100 ! important;
+  }
+  #container3 > svg > path:first-child{
+    stroke-dasharray: 100, 100 ! important;
+  }
+
+  #container3 > svg > path:last-child{
+    stroke-dasharray: 90, 100 ! important;
+  }
+
+.values{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.values1{
+    margin: auto;
+}
+
+.values1 p{
+    font-size: 15px;
+    font-weight: 400;
+}
