@@ -471,7 +471,7 @@ transparent;
             filter: grayscale(60%); */
 margin-top: 10px;
             width: 100%;
-            border-radius: 10px;
+            /* border-radius: 10px; */
             height: 100%;
 }
 
@@ -489,7 +489,7 @@ margin-top: 10px;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 20px 5px;
   }
 
   .views2{
