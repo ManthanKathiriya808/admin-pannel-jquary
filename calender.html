@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
-    <link rel="stylesheet" href="css/emial.css">
+    <link rel="stylesheet" href="css/calender.css">
     <link rel="stylesheet" href="css/media.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
@@ -207,106 +207,106 @@
                 </div>
                
                    </section> 
-            
-            <section class="three-div border d-flex">
-                <div class="div-1 border">
-                    <div class="div-1-main ">
-                        <div class="new-msg ">
-                            <div class="msg-btn">
-                                <button><a href="">New Message</a> </button>
+            <section>
+                <div class="calender d-flex">
+                    <div class="calender1">
+                        <div class="calenders1">
+
+
+                            <div class="main1">
+                                <form action="#" class="form" id="form">
+                                  <div class="inputs">
+                                    <div class="input-container">
+                                      <label for="day" class="input-label">Day</label>
+                                      <input class="input-input" type="number" id="day" name="day" min="1" max="31" required placeholder="DD">
+                                      <span class="input-error">This field is required</span>
+                                    </div>
+                              
+                                    <div class="input-container">
+                                      <label for="month" class="input-label">Month</label>
+                                      <input class="input-input" type="number" id="month" name="month" min="1" max="12" required placeholder="MM">
+                                      <span class="input-error">This field is required</span>
+                                    </div>
+                              
+                                    <div class="input-container">
+                                      <label for="year" class="input-label">Year</label>
+                                      <input class="input-input" type="number" id="year" name="year" min="1" max="2999" required placeholder="YYYY">
+                                      <span class="input-error">This field is required</span>
+                                    </div>
+                                  </div>
+                              
+                                  <button type="submit" class="btn1">
+                                    <span>calcular</span>
+                                    <img src="https://raw.githubusercontent.com/davidsonaguiar/frontendmentor/main/Age%20calculator%20app/assets/images/icon-arrow.svg" alt="" />
+                                  </button>
+                                </form>
+                              
+                                <h1 class="title">
+                                  <span class="block"><span id="year-result" class="values" class="values">--</span> years</span>
+                                  <span class="block"><span id="month-result" class="values">--</span> months</span>
+                                  <span class="block"><span id="day-result" class="values">--</span> days</span>
+                                </h1>
                             </div>
-                            <div class="inbox ">
-                                
-                                <div class="in-box d-flex">
-                                    <div class="in-boxs d-flex">
-                                    <div class="in-icon">
-                                        <i class="ri-mail-line"></i>
+                            <div class="containerx">
+                                <div class="item item--1" onclick="toggleActive(event)">
+                                  <div class="close"></div>
+                                  <div class="note">
+                                    <div class="heading">1. Fix some bugs</div>
+                                    <div class="content">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim molestias consequuntur corrupti! Veritatis aperiam beatae repudiandae nesciunt iure! Commodi a soluta animi nostrum nulla? Nisi vel excepturi asperiores, id unde itaque nam, cumque sapiente inventore, impedit ullam fugit sed.
                                     </div>
-                                    <div class="in-p">
-                                        <p>Inbox</p>
-                                    </div>
+                                  </div>
                                 </div>
-                                    <div class="in-btn">
-                                        <button>+99</button>
+                                <div class="item item--2" onclick="toggleActive(event)">
+                                  <div class="close"></div>
+                                  <div class="note">
+                                    <div class="heading">2. Watch Doctor Who</div>
+                                    <div class="content">
+                                      Lorem ipsum dolor sit amet.
                                     </div>
+                                  </div>
                                 </div>
-                                <div class="in-box d-flex">
-                                    <div class="in-boxs d-flex">
-                                    <div class="in-icon">
-                                        <i class="ri-mail-line"></i>
+                                <div class="item item--3" onclick="toggleActive(event)">
+                                  <div class="close"></div>
+                                  <div class="note">
+                                    <div class="heading">3. Prepare for exam</div>
+                                    <div class="content">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quas.
                                     </div>
-                                    <div class="in-p">
-                                        <p>Inbox</p>
-                                    </div>
+                                  </div>
                                 </div>
-                                    <div class="in-btn">
-                                        <button>+99</button>
+                                <div class="item item--4" onclick="toggleActive(event)">
+                                  <div class="close"></div>
+                                  <div class="note">
+                                    <div class="heading">4. Do some other thing</div>
+                                    <div class="content">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quos similique? Consequuntur repudiandae iure corrupti fugit adipisci dolorum sed nobis incidunt, accusantium ad provident, aliquam temporibus nostrum. Nobis voluptatibus natus voluptatem ea, ducimus nemo omnis labore, suscipit corrupti molestias fugit.
                                     </div>
+                                  </div>
                                 </div>
-                                <div class="in-box d-flex">
-                                    <div class="in-boxs d-flex">
-                                    <div class="in-icon">
-                                        <i class="ri-mail-line"></i>
+                                <div class="item item--5" onclick="toggleActive(event)">
+                                  <div class="close"></div>
+                                  <div class="note">
+                                    <div class="heading">5. Get some sleep</div>
+                                    <div class="content">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officia! Et earum vitae odio molestias corrupti, illo eius dolor sed numquam cumque placeat officiis itaque ratione odit ullam magnam facilis.
                                     </div>
-                                    <div class="in-p">
-                                        <p>Inbox</p>
-                                    </div>
+                                  </div>
                                 </div>
-                                    <div class="in-btn">
-                                        <button>+99</button>
-                                    </div>
-                                </div>
-                                <div class="in-box d-flex">
-                                    <div class="in-boxs d-flex">
-                                    <div class="in-icon">
-                                        <i class="ri-mail-line"></i>
-                                    </div>
-                                    <div class="in-p">
-                                        <p>Inbox</p>
-                                    </div>
-                                </div>
-                                    <div class="in-btn">
-                                        <button>+99</button>
-                                    </div>
-                                </div>
-                                <div class="in-box d-flex">
-                                    <div class="in-boxs d-flex">
-                                    <div class="in-icon">
-                                        <i class="ri-mail-line"></i>
-                                    </div>
-                                    <div class="in-p">
-                                        <p>Inbox</p>
-                                    </div>
-                                </div>
-                                    <div class="in-btn">
-                                        <button>+99</button>
-                                    </div>
-                                </div>
-                                <div class="in-box d-flex">
-                                    <div class="in-boxs d-flex">
-                                    <div class="in-icon">
-                                        <i class="ri-mail-line"></i>
-                                    </div>
-                                    <div class="in-p">
-                                        <p>Inbox</p>
-                                    </div>
-                                </div>
-                                    <div class="in-btn">
-                                        <button>+99</button>
-                                    </div>
-                                </div>
-                               
-                            </div>
+                              </div>
+
+
+                              
+                        </div>
+                    </div>
+                    <div class="calender2">
+                        <div class="calenders2">
+                               <div id='calendar'></div>
                         </div>
                     </div>
                 </div>
-                <div class="div-2 border">
-                    <div class="div-1-main"></div>
-                </div>
-                <div class="div-3 border">
-                    <div class="div-1-main"></div>
-                </div>
             </section>
+            
         </main>
     </div>
 
@@ -314,7 +314,6 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js" integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  
-
 
 </script>
     <script>
@@ -334,6 +333,35 @@
     </script>
 
  
+
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
+<script>
+
+    
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth'
+    });
+    calendar.render();
+  });
+
+</script>
+
+<script>
+    function toggleActive(e) {
+  if (!$(e.target).hasClass("item") && !$(e.target).hasClass("close")) {
+    return;
+  }
+  $(".active").removeClass("active");
+  if ($(e.target).hasClass("close")) {
+    return;
+  }
+  $(e.target).addClass("active");
+}
+
+</script>
 
 
 </body>
