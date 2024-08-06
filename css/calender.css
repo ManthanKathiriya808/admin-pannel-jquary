@@ -149,13 +149,17 @@ body{
     width: 100%;
  }
 
-nav{
-    background-color: white;
-    padding: 0px 30px;
-    width: 100%;
-    height: 68px;
-    justify-content: space-between;
-    position: relative;
+
+ nav{
+  background-color: white;
+  padding: 0px 30px;
+  width: calc( 100% - 250px);
+  /* width: 100%; */
+  height: 68px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 nav i{
@@ -332,6 +336,7 @@ transparent;
     width: calc( 100% - ".admin-side");
     background-color: aliceblue;
     flex-wrap: wrap;
+    padding-top: 70px;
 
 }
 
