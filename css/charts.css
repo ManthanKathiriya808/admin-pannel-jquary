@@ -20,6 +20,11 @@ body{
     padding: 0px !important;
 }
 
+
+.cont:hover .admin-link {
+    background-color: rgb(240, 239, 239);
+    color: black;
+}
 .d-flex{
     display: flex;
 }

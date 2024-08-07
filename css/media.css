@@ -54,6 +54,15 @@
         /* border-radius: 10px; */
     }
 
+    .containerx{
+        padding-left: 43px !important;
+
+    }
+
+    .inbox-body{
+        padding: 0 !important;
+    }
+
     .admin-title{
         display: none;
     }

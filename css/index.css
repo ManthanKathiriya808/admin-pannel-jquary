@@ -77,7 +77,6 @@ body{
 }
 
 
-
 .admin-title-logo i{
     font-size: 30px;
     color: #0056ff;
@@ -104,6 +103,10 @@ body{
 .cont{
     padding: 2px 0px;
     margin-bottom: 2px;
+}
+.cont:hover .admin-link {
+    background-color: rgb(240, 239, 239);
+    color: black;
 }
 
 .admin-link i{
@@ -293,7 +296,7 @@ nav i{
 
 .glow-on-hover:active {
     color: 
-#000
+#000;
 }
 
 .glow-on-hover:active:after {
@@ -311,8 +314,7 @@ transparent;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: 
-#111;
+    background: #111;
     left: 0;
     top: 0;
     border-radius: 10px;

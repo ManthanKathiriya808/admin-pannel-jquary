@@ -24,6 +24,11 @@ body{
     display: flex;
 }
 
+.cont:hover .admin-link {
+  background-color: rgb(240, 239, 239);
+  color: black;
+}
+
 .admin-side{
     background-color: var(--white-);
     width: 250px ;
@@ -203,7 +208,7 @@ nav i{
     background-color: white;
     box-shadow: rgba(84, 84, 110, 0.265) 0px 7px 29px 0px;
     width: 235px;
-    
+    z-index: 10;
  
 }
 
